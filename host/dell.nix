@@ -55,7 +55,10 @@
 
   security.sudo.wheelNeedsPassword = false;
 
-  programs.hyprland.enable = true;
+  programs = {
+    hyprland.enable = true;
+    steam.enable = true;
+  };
 
   services = {
     pipewire = {
