@@ -9,8 +9,8 @@
       mv = "mv -v";
 
       ls = "ls --color";
+      la = "la -A --color";
       ll = "ls -lAh --color";
-      l = "ls -A --color";
 
       at = "source .venv/bin/activate";
       jl = ".venv/bin/jupyter-lab";
