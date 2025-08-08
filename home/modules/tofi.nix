@@ -24,6 +24,6 @@ in {
   programs.tofi.enable = true;
   home = {
     file.".config/waybar/config.jsonc".text = cfg;
-    packages = with pkgs; [cozette];
+    packages = with pkgs; [nerd-fonts.jetbrains-mono ];
   };
 }
